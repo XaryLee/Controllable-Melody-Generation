@@ -10,14 +10,22 @@ pip install -r requirements.txt
 ```
 
 ## 文件介绍
-POP909: 经信息提取处理后的POP909数据集，存储格式为文本文档
+POP909: 经信息提取处理后的POP909数据集，存储格式为文本文档。可从该地址下载经预处理的POP909数据集：https://github.com/Dsqvival/hierarchical-structure-analysis
+
 MusicFrameworks.py: 按照论文描述方式定义的数据预处理函数包
+
 dataloader.py: 数据集构建程序
+
 model.py: 定义Transformer-LSTM模型
+
 train.py: basic melody生成模型训练
+
 train_rhythm.py: rhythm生成模型训练
+
 train_melody.py: melody生成模型训练
+
 generate.py: 长序列旋律生成
+
 generate_seg: 片段旋律生成
 
 ## 模型训练
